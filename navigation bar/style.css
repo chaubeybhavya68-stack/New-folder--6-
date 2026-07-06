@@ -1,9 +1,3 @@
-/* Google Font */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-/* Reset */
-
 *{
     margin:0;
     padding:0;
@@ -187,6 +181,61 @@ ul{
 
 .card h3{
     margin-bottom:15px;
+}
+/* Pricing */
+
+.pricing{
+    text-align: center;
+    background: #f8f9fc;
+}
+
+.pricing h2{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.pricing p{
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.pricing-card{
+    background: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.pricing-card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.15);
+}
+
+.pricing-card h3{
+    margin-bottom: 15px;
+}
+
+.pricing-card h1{
+    color: #2563eb;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul{
+    margin-bottom: 20px;
+}
+
+.pricing-card li{
+    margin: 10px 0;
+    color: #666;
 }
 
 /* About */
